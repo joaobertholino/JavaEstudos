@@ -71,7 +71,7 @@ public class App {
 //        Imprimindo o valor de parcelas de um carro
         int totalValue = 56000;
         for (int installments = totalValue; installments >= 1; installments--) {
-            double installmentsValue = (double) totalValue / installments;
+            int installmentsValue = totalValue / installments;
             if (installmentsValue <= 2000) continue;
             System.out.println(STR."Quantidade de parcelas: \{installments} => Valor da parcela: \{(int) installmentsValue}");
         }
