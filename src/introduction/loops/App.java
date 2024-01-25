@@ -11,7 +11,6 @@ public class App {
 
     public static void whileLoop() {
         int count = 0;
-
         while (count < 10) {
             if (count % 2 == 0) {
                 System.out.println(STR."Numeros pares de 0 a 9: \{count}");
@@ -37,8 +36,8 @@ public class App {
 
     public static void forLoop() {
         for (int i = 0; i < 10; i++) {
-            if (i % 2 == 0) {
-                System.out.println(STR."Numeros pares de 0 a 9: \{i}");
+            if (i % 2 != 0) {
+                System.out.println(STR."Numeros inpares de 0 a 9: \{i}");
             }
         }
         System.out.println("Saiu do loop for!");
