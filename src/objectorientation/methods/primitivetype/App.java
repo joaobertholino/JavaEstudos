@@ -23,5 +23,11 @@ public class App {
         System.out.println("Fora do changeNumber!");
         System.out.println(STR."x: \{x}");
         System.out.println(STR."y: \{y}");
+
+        int[] numbers = {1, 2, 3, 4, 5};
+        calc.sumArray(numbers);
+
+//        Caso seja passado outro parametro alem do varargs, o primeiro valor do varargs sera atribuido a esse parametro
+        calc.sumVarArgs(1, 2, 3, 4, 5);
     }
 }

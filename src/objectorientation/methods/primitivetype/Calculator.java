@@ -37,4 +37,22 @@ public class Calculator {
         System.out.println(STR."x: \{x}");
         System.out.println(STR."y: \{y}");
     }
+
+    //    Método que suma numeros de um array passando como argumento
+    public void sumArray(int[] numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        System.out.println(sum);
+    }
+
+    //    Método que aceita um numero variavel de argumentos(varargs) e armazena em um array
+    public void sumVarArgs(double valueOne, double valueTwo, int... numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        System.out.println(sum);
+    }
 }

@@ -18,6 +18,8 @@ public class App {
 //        Ao passar objetos como argumento, esta sendo passado a referencia desse objeto
         printStudent.print(myStudentOne);
         printStudent.print(myStudentTwo);
+
+        myStudentOne.print();
+        myStudentTwo.print();
     }
 }
-// https://www.youtube.com/watch?v=0fVZlarZ-Lg&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=52&pp=iAQB
