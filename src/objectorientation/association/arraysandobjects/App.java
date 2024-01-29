@@ -1,6 +1,8 @@
 package objectorientation.association.arraysandobjects;
 
 // TODO: Revisar associações
+// TODO: https://www.youtube.com/watch?v=HOjV9M6pRQQ&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=65&pp=iAQB
+
 public class App {
   public static void main(String[] args) {
 //    Instanciando tres objetos
