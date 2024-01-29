@@ -2,18 +2,12 @@ package objectorientation.constructors;
 
 public class App {
     public static void main(String[] args) {
-/*
-        Ao instanciar um novo objeto de uma classe com construtor declarado, é necessario passar os valores das
-        propriedades como argumento
-*/
-        Car myCarOne = new Car("Mercedes", "AMG G63", "Black", 2024);
+//        Instanciando um objeto passando como argumento os valores do construtor
+        Car myCarOne = new Car("BMW", "X1", "White", 2024);
         myCarOne.print();
 
-//        Instanciando um objeto sem os valores das propriedades definidas
+//        Inicializando um objeto sem argumentos utilizando o segundo construtor
         Car myCarTwo = new Car();
-        myCarTwo.print();
-
-        Car myCarThree = new Car(true);
         myCarTwo.print();
     }
 }
