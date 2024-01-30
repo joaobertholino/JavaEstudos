@@ -47,7 +47,7 @@ public class Calculator {
         System.out.println(sum);
     }
 
-    //    Método que aceita um numero variavel de argumentos(varargs) e armazena em um array
+    //    Método que aceita um número variavel de argumentos(varargs) e armazena em um array
     public void sumVarArgs(double valueOne, double valueTwo, int... numbers) {
         int sum = 0;
         for (int num : numbers) {

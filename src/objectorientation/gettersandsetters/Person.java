@@ -11,7 +11,7 @@ public class Person {
         return name;
     }
 
-    //    Declarando métodos getters e setters para poder ter acesso as propriedades privadas
+    //    Declarando métodos getters e setters para poder ter acesso às propriedades privadas
     public void setName(String name) {
         this.name = name;
     }

@@ -1,6 +1,5 @@
 package objectorientation.methods.primitivetype;
 
-//TODO: Revisar parametros de primitive type
 public class App {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
@@ -27,7 +26,7 @@ public class App {
         int[] numbers = {1, 2, 3, 4, 5};
         calc.sumArray(numbers);
 
-//        Caso seja passado outro parametro alem do varargs, o primeiro valor do varargs sera atribuido a esse parametro
+//        Caso seja passado outro parametro além do varargs, o primeiro valor do varargs sera atribuido a esse parametro
         calc.sumVarArgs(1, 2, 3, 4, 5);
     }
 }

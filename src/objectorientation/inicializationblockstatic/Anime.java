@@ -1,11 +1,12 @@
 package objectorientation.inicializationblockstatic;
 
-// TODO: Revisar blocos estaticos de inicialização
+/**
+ * Métodos estaticos são executados apenas uma vez, quando a classe é carregada pela JVM
+ */
 public class Anime {
   private static final int[] episodes;
   private String name;
 
-//  Métodos estaticos são executados apenas uma vez, quando a classe é carregada pela JVM
   static {
     System.out.println("Dentro do primeiro bloco estatico de inicialização!");
     episodes = new int[3];

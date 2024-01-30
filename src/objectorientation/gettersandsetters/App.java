@@ -1,11 +1,10 @@
 package objectorientation.gettersandsetters;
 
-//TODO: Revisar Getters and Setters
 public class App {
     public static void main(String[] args) {
         Person myPerson = new Person();
 
-//        Utilizando métodos set para atribuir valores a propriedades
+//        Utilizando método set para atribuir valores a propriedades
         myPerson.setName("João");
         myPerson.setAge(21);
         myPerson.setWage(7287);
