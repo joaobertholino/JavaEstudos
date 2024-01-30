@@ -5,8 +5,8 @@ package objectorientation.inicializationblocks;
  * e antes da execução dos contrutores
  */
 public class Anime {
-  private String name;
   private final int[] episodes;
+  private String name;
 
   {
     System.out.println("Dentro do bloco de inicialização!");

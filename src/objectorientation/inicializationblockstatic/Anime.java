@@ -5,7 +5,6 @@ package objectorientation.inicializationblockstatic;
  */
 public class Anime {
   private static final int[] episodes;
-  private String name;
 
   static {
     System.out.println("Dentro do primeiro bloco estatico de inicialização!");
@@ -17,7 +16,7 @@ public class Anime {
     }
   }
 
-//  Um segundo bloco de inicialização sera executa na após o seu anterior e assim por diante
+  //  Um segundo bloco de inicialização sera executa na após o seu anterior e assim por diante
   static {
     System.out.println("Dentro do segundo bloco estatico de inicialização!");
 
@@ -27,7 +26,9 @@ public class Anime {
     }
   }
 
-//  Junto aos blocos estaticos, podem existir blocos não estaticos que seram executados após os blocos estaticos
+  private String name;
+
+  //  Junto aos blocos estaticos, podem existir blocos não estaticos que seram executados após os blocos estaticos
   {
     System.out.println("Dentro do terceiro bloco não estatico de inicialização!");
 

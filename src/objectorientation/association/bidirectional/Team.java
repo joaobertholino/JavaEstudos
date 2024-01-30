@@ -29,10 +29,10 @@ public class Team {
     this.players = players;
   }
 
-  public void print(){
+  public void print() {
     System.out.println(this.name);
     if (players == null) return;
-    for (Player player : players){
+    for (Player player : players) {
       System.out.println(player.getName());
     }
   }
