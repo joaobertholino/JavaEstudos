@@ -1,13 +1,16 @@
 package objectorientation.finalmodified.primitivetype;
 
-// TODO: Revisar modificador final
-// TODO: https://youtu.be/EQhYKOBCozE?list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW
 public class App {
   public static void main(String[] args) {
-    Car myCar = new Car();
+    Car myCar = new Car(150);
+    System.out.println(myCar.SPEED_IDEAL);
 
-//    É preferivel chamar constantes pela classe, e não pela variavel de referencia
+//    Quando a constante é estatica, sempre sera acessada pelo nome da classe
     double speedLimit = Car.SPEED_LIMIT;
     System.out.println(speedLimit);
+
+//    Quando a contante não é estatica, sempre sera acessada pela variavel de referencia
+    double speedMax = myCar.SPEED_MAX;
+    System.out.println(speedMax);
   }
 }
