@@ -1,4 +1,4 @@
-package objectorientation.heritage.heritageinit;
+package objectorientation.heritage;
 
 public class Address {
   private String street;
@@ -19,4 +19,5 @@ public class Address {
   public void setZipCode(String zipCode) {
     this.zipCode = zipCode;
   }
+
 }
