@@ -13,5 +13,6 @@ public class App {
 
     Client clientFour = new Client("Lucas", TypeClient.PESSOA_JURIDICA);
     System.out.println(clientFour);
+
   }
 }

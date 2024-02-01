@@ -2,10 +2,10 @@ package objectorientation.enumeration.intro;
 
 public class Client {
   private String name;
-//  Associando a classe Client com a classe TypeClient
+//  Declarando uma associação uniderecional da classe Client com a classe Enum TypeClient
   private TypeClient typeClient;
 
-//  Utilizando um construtor para força a passagem de um argumento para o TypeClient que
+//  Utilizando um construtor para forçar a passagem de um argumento para o TypeClient que
 //  corresponda aos valores declarados dentro da classe enum
   public Client(String name, TypeClient typeClient) {
     this.name = name;
