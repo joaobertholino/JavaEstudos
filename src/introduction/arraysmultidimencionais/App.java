@@ -7,7 +7,6 @@ public class App {
     arraysMult();
   }
 
-  // TODO: Revisar arrays multidimencionais
   public static void arraysMult() {
 //        Criando uma matrix de 2|2
     int[][] days = new int[2][2];
@@ -32,5 +31,3 @@ public class App {
     System.out.println(Arrays.toString(days[0]));
   }
 }
-
-// https://www.youtube.com/watch?v=EalQ6X_RtJk&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=37&pp=iAQB

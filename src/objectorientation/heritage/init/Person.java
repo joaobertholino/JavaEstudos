@@ -1,4 +1,4 @@
-package objectorientation.heritage;
+package objectorientation.heritage.init;
 
 public class Person {
   /**
@@ -18,11 +18,7 @@ public class Person {
     System.out.println("Dentro do bloco de inicialização não estatico 2 de Person!");
   }
 
-  public Person(String name) {
-    System.out.println("Dentro do construtor de Person!");
-    this.name = name;
-  }
-
+  //  Ao definir um construtor na classe pai, o mesmo devera ser declarado na classe filha
   public Person(String name, String cpf, Address address) {
     this.name = name;
     this.cpf = cpf;

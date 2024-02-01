@@ -1,4 +1,4 @@
-package objectorientation.heritage;
+package objectorientation.heritage.init;
 
 /**
  * Ao extender uma classe de outra, todos os membros da classe pai são herdados para a classe filho,
@@ -16,12 +16,6 @@ public class Employee extends Person {
   }
   {
     System.out.println("Dentro do bloco de inicialização não estatico 2 de Employee!");
-  }
-
-//  Chamando um construtor especifico(com base nos parametros passados) da classe pai utilizando super
-  public Employee(String name) {
-    super(name);
-    System.out.println("Dentro do construtor de Employee!");
   }
 
 //  Chamando um construtor especifico(com base nos parametros passados) da classe pai utilizando super e adicionando
@@ -45,6 +39,3 @@ public class Employee extends Person {
     System.out.println(STR."Salario do funcionario: \{this.wage}");
   }
 }
-
-// TODO: Revisar herança de construtores
-// TODO: https://www.youtube.com/watch?v=64GcJDKN4mI&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=75&pp=iAQB

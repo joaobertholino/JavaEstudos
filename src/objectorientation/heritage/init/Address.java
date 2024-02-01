@@ -1,4 +1,4 @@
-package objectorientation.heritage;
+package objectorientation.heritage.init;
 
 public class Address {
   private String street;

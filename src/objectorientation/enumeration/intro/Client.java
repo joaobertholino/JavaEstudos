@@ -2,12 +2,12 @@ package objectorientation.enumeration.intro;
 
 public class Client {
   private String name;
-//  Associando a classe typeClient com a classe Client
-  private typeClient typeClient;
+//  Associando a classe Client com a classe TypeClient
+  private TypeClient typeClient;
 
-//  Utilizando um construtor para força a passagem de um argumento para o typeClient que
-//  corresponda aos valores passados dentro da classe enum
-  public Client(String name, typeClient typeClient) {
+//  Utilizando um construtor para força a passagem de um argumento para o TypeClient que
+//  corresponda aos valores declarados dentro da classe enum
+  public Client(String name, TypeClient typeClient) {
     this.name = name;
     this.typeClient = typeClient;
   }
@@ -25,11 +25,11 @@ public class Client {
     this.name = name;
   }
 
-  public typeClient getTypeClient() {
+  public TypeClient getTypeClient() {
     return typeClient;
   }
 
-  public void setTypeClient(typeClient typeClient) {
+  public void setTypeClient(TypeClient typeClient) {
     this.typeClient = typeClient;
   }
 }

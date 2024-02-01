@@ -1,11 +1,11 @@
 package objectorientation.enumeration.constructorsandatribute;
 
-public enum typeClient {
+public enum TypeClient {
   PESSOA_FISICA(1),
   PESSOA_JURIDICA(2);
   public final int VALUE;
 
-  typeClient(int value) {
+  TypeClient(int value) {
     this.VALUE = value;
   }
 }
