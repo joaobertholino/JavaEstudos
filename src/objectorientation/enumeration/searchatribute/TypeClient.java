@@ -11,9 +11,15 @@ public enum TypeClient {
     this.NameReport = nameReport;
   }
 
-  public static TypeClient searchForNameReport(String nameReport){
+  /**
+   * Declarando um método chamado searchForNameReport passando como parametro uma String nameReport, dentro do método
+   * é declarado um forEach que ira iterar sobre cada elemento do array retornado por values(), por fim, utilizando um
+   * if, será verificado se o values.getNameReport() corresponde ao nameReport passado como argumento para o método,
+   * se sim, retorna value, se não, retorna null.
+   */
+  public static TypeClient searchForNameReport(String nameReport) {
     for (TypeClient value : values()) {
-      if (value.getNameReport().equals(nameReport)){
+      if (value.getNameReport().equals(nameReport)) {
         return value;
       }
     }

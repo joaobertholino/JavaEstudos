@@ -1,6 +1,5 @@
 package objectorientation.enumeration.searchatribute;
 
-// TODO: Revisar e treinar enumerações
 public class App {
   public static void main(String[] args) {
     Client clientOne = new Client("Ellen", TypeClient.PESSOA_FISICA, TypePayment.DEBIT);
@@ -15,13 +14,15 @@ public class App {
     final double creditMethod = TypePayment.CREDIT.calculateDiscount(100);
     System.out.println(creditMethod);
 
+//    valueOf => Retorna o valor de enumeração com base no argumento passado, sendo esse argumento uma correspondencia
+//    exata ao valor de enumeração
     TypeClient typeClientOne = TypeClient.valueOf("PESSOA_FISICA");
     System.out.println(typeClientOne);
 
-    TypeClient typeClientTwo = TypeClient.searchForNameReport("Pessoa Fisica");
+    TypeClient typeClientTwo = TypeClient.searchForNameReport("Pessoa Juridica");
     System.out.println(typeClientTwo);
 
-    TypeClient typeClientThree = TypeClient.searchForNameReport("Valor invalido");
+    TypeClient typeClientThree = TypeClient.searchForNameReport("Valor Invalido");
     System.out.println(typeClientThree);
   }
 }

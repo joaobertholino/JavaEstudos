@@ -10,9 +10,9 @@ public class App {
 
 //    Chamando os metodos de enumeração e atribuindo o valor a uma constante
     final double debitMethod = TypePayment.DEBIT.calculateDiscount(100);
-    System.out.println(debitMethod);
+    System.out.println(STR."Valor do desconto no debito: \{debitMethod}");
 
     final double creditMethod = TypePayment.CREDIT.calculateDiscount(100);
-    System.out.println(creditMethod);
+    System.out.println(STR."Valor do desconto no credito: \{creditMethod}");
   }
 }
