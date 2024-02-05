@@ -14,10 +14,14 @@ public class Car {
     return speedlimit;
   }
 
+  /**
+   * Ao inves de utilizar {@code this} para manipular uma propriedade estatica, usa-se o nome da classe.
+   * <p>
+   * O this se refere ao objeto e metodos e props estaticas se referen a classe.
+   * <p>
+   * Métodos estaticos não tem acesso a propriedades que não sejam estaticas.
+   */
   public static void setSpeedlimit(double speedlimit) {
-//        Ao inves de utilizar this para manipular uma propriedade estatica, usa-se o nome da classe
-//        O this se refere ao objeto e metodos e props estaticas se referen a classe
-//        Métodos estaticos não tem acesso a propriedades que não sejam estaticas
     Car.speedlimit = speedlimit;
   }
 
@@ -37,7 +41,9 @@ public class Car {
     this.maximumSpeed = maximumSpeed;
   }
 
-  //    Métodos não estaticos podem acessar propriedades estaticas
+  /**
+   * Métodos não estaticos podem acessar propriedades estaticas
+   */
   public void print() {
     System.out.println("-------------------------------------");
     System.out.println(STR."Marca: \{this.brand}");

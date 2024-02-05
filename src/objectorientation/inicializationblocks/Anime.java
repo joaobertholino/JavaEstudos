@@ -21,7 +21,9 @@ public class Anime {
     this.name = name;
   }
 
-  //    A inicialização das propriedades do objeto acontece antes da execução do construtor
+  /**
+   * A inicialização das propriedades do objeto acontece antes da execução do construtor
+   */
   public Anime() {
     System.out.println("Dentro do bloco do construtor sem parametros!");
   }

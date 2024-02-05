@@ -13,6 +13,6 @@ public class Client {
 
   @Override
   public String toString() {
-    return STR."Client{name='\{name}\{'\''}, typeClient=\{typeClient}, typeClientValue=\{typeClient.VALUE}, typePayment=\{typePayment}\{'}'}";
+    return STR."Client{name='\{name}\{'\''}, typeClient=\{typeClient}, typeClientNameReport=\{typeClient.nameReport}, typeClientValue=\{typeClient.VALUE}, typePayment=\{typePayment}\{'}'}";
   }
 }

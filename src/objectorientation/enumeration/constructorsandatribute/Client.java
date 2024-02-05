@@ -2,8 +2,9 @@ package objectorientation.enumeration.constructorsandatribute;
 
 public class Client {
   /**
-   * É possivel criar um bloco de codigo enum dentro de uma classe, porem não é aconselhavel
-   * podendo tambem ter qualquer modificador de acesso apenas quando declarada entro de uma classe.
+   * É possivel criar um bloco de codigo enum dentro de uma classe, porem não é aconselhavel.
+   * <p>
+   * Podendo ter qualquer modificador de acesso apenas quando declarada entro de uma classe.
    */
   public enum TypePayment {
     DEBIT(1),
@@ -14,6 +15,7 @@ public class Client {
       this.VALUE = value;
     }
   }
+
   private final String name;
   private final TypeClient typeClient;
   private final TypePayment typePayment;
