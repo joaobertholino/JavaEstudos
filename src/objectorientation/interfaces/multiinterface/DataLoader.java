@@ -1,25 +1,32 @@
 package objectorientation.interfaces.multiinterface;
 
 /**
- * Um método default em uma interface Java é uma implementação de método que fornece uma implementação padrão
- * diretamente na interface. Introduzido a partir do Java 8, os métodos default permitem adicionar novos
- * comportamentos a interfaces sem quebrar a compatibilidade com as implementações existentes.
+ * Ordem dos modificares de acesso do mais retristivo ao mais liberal:
+ * Não é permitido a declaração de um modificador mais retristivo que o padrão(public).
  * <p>
- * Eles são declarados com a palavra-chave 'default' antes do tipo de retorno do método. As classes que implementam
- * a interface podem optar por herdar a implementação padrão do método ou fornecer uma implementação personalizada,
- * substituindo assim o método default.
+ * {@code private} => O acesso é permitido apenas dentro da própria classe.
  * <p>
- * Métodos default são úteis para evoluir interfaces sem afetar as classes existentes, facilitando a adição de
- * funcionalidades sem a necessidade de modificar todas as implementações existentes.
+ * {@code default} => O acesso é permitido apenas dentro do mesmo pacote.
+ * <p>
+ * {@code protected} => O acesso é permitido apenas para classes no mesmo pacote ou subclasses.
+ * <p>
+ * {@code public} => O acesso é permitido de qualquer lugar, dentro ou fora do pacote.
  */
 public interface DataLoader {
+
+  /**
+   * Declarando método {@code load} na interface {@code DataLoader} que será implementando na classe {@code DataBaseLoader}.
+   */
   String load();
 
+  /**
+   * Declarando métodos default {@code checkPermission} e {@code validation} na interface {@code DataLoader}
+   */
   default String checkPermission() {
-    return "Implementação de método default dentro da interface que será sobreescrito na classe!";
+    return "Implementação de método default na interface DataLoader que será sobreescrito na classe DataBaseLoader!";
   }
 
-  default String vaidation() {
-    return "Implementação de método default dentro da interface!";
+  default String validation() {
+    return "Implementação de método default na interface DataLoader!";
   }
 }

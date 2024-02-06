@@ -14,11 +14,11 @@ package objectorientation.interfaces.init;
  * abstratos da interface, garantindo conformidade com o contrato estabelecido pela interface.
  */
 public interface DataLoader {
-  String VARIABLE_INTERFACE = "Constante declarada em uma interface DatabaseLoader.";
+  String VARIABLE_INTERFACE = "Constante declarada em uma interface DataBaseLoader.";
 
   String loadOne();
 
   static String loadTwo() {
-    return "Método estatico declarado na interface DatabaseLoader.";
+    return "Método estatico declarado na interface DataBaseLoader.";
   }
 }

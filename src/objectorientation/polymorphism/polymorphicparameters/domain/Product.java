@@ -1,4 +1,4 @@
-package objectorientation.polymorphism.initone.domain;
+package objectorientation.polymorphism.polymorphicparameters.domain;
 
 public abstract class Product implements Taxable {
   protected String name;
