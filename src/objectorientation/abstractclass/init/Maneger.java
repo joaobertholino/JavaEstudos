@@ -12,6 +12,6 @@ public class Maneger extends Employee {
 
   @Override
   public String abstractExemple() {
-    return "Método abstrato de exemplo da classe Maneger";
+    return "Implementação do método abstrato da classe pai Employee na classe filha Maneger.";
   }
 }

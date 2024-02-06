@@ -10,7 +10,10 @@ public class Maneger extends Employee {
     return STR."Maneger{name='\{name}\{'\''}, wage=\{wage}\{'}'}";
   }
 
-//  Implementando um método abstrato da superClasse, utilizando a notação @Override para garantir a sobreescrita do método
+  /**
+   * Implementando um método abstrato da superClasse, utilizando a notação {@code @Override} para
+   * garantir a sobreescrita do método.
+   */
   @Override
   public String calculateBonus() {
     this.wage = this.wage + this.wage * 0.05;

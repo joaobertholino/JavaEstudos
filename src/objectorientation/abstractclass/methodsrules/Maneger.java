@@ -18,6 +18,6 @@ public class Maneger extends Employee {
 
   @Override
   public void print() {
-    System.out.println("Implementando um método herdado da classe Person a qual a classe Employee extende");
+    System.out.println("Implementando um método herdado da classe Person a qual a classe Employee extende.");
   }
 }

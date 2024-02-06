@@ -2,17 +2,21 @@ package objectorientation.interfaces.atributeandmethodstatic;
 
 /**
  * Ordem dos modificares de acesso do mais retristivo ao mais liberal:
+ * Não é permitido a declaração de um modificador mais retristivo que o padrão(public).
  * <p>
- * private => default => package => protected => public
+ * {@code private} => O acesso é permitido apenas dentro da própria classe.
  * <p>
- * Não é permitido a declaração de um modificador mais retristivo que o padrão(public)
+ * {@code default} => O acesso é permitido apenas dentro do mesmo pacote.
+ * <p>
+ * {@code protected} => O acesso é permitido apenas para classes no mesmo pacote ou subclasses.
+ * <p>
+ * {@code public} => O acesso é permitido de qualquer lugar, dentro ou fora do pacote.
  */
 public interface DataLoader {
-  //  Todos os atributos em uma interface são constantes
   int MAX_DATA_SIZE = 10;
 
   static String retrieveMaxDataSize() {
-    return "Dentro do método estatico retrieveMaxDataSize pertencente a interface DataLoader!";
+    return "Declaração do método estatico retrieveMaxDataSize da interface DataLoader.";
   }
 
   String load();

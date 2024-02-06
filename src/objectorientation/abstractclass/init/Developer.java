@@ -10,8 +10,11 @@ public class Developer extends Employee{
     return STR."Developer{name='\{name}\{'\''}, wage=\{wage}\{'}'}";
   }
 
+  /**
+   * Implementando a sobreescrita do método abstrato da classe Employee a qual a classe Developer extente.
+   */
   @Override
   public String abstractExemple() {
-    return "Método abstrato de exemplo da classe Developer";
+    return "Implementação do método abstrato da classe pai Employee na classe filha Developer.";
   }
 }

@@ -1,9 +1,11 @@
 package objectorientation.interfaces.init;
 
 public class DatabaseLoader implements DataLoader {
-  //  Implementando método da interface
+  /**
+   * Implementando a sobreescrita de método herdado da interface {@code DataLoader} na classe {@code DatabaseLoader}.
+   */
   @Override
-  public String load() {
-    return "Executando método da interface implementado na classe Databaseloader!";
+  public String loadOne() {
+    return "Implementação do método da interface DataLoader na classe DatabaseLoader.";
   }
 }

@@ -13,6 +13,7 @@ public enum TypePayment {
       return value * 0.05;
     }
   };
+
   public final String PAYMENT_METHOD;
 
   TypePayment(String typePayment) {

@@ -2,7 +2,7 @@ package objectorientation.enumeration.searchatribute;
 
 public class App {
   /**
-   * {@code valueOf} => Retorna o valor de enumeração com base no argumento passado, sendo esse argumento uma correspondencia
+   * {@code valueOf} => Método estatico que retorna o valor de enumeração com base no argumento passado, sendo esse argumento uma correspondencia
    * exata ao valor de enumeração.
    */
   public static void main(String[] args) {

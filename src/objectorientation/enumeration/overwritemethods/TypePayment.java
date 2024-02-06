@@ -20,7 +20,7 @@ public enum TypePayment {
 
   /**
    * Depois de declarar métodos para todos os valores de enumeração, o método declarado fora de escopo passa a não ser
-   * mais utilizado, sendo necessario a declaração dele como um método abstrato e sem corpo.
+   * mais utilizado, sendo necessario a declaração dele como um método abstrato (sem corpo).
     */
   public abstract double calculateDiscount(double value);
 }
