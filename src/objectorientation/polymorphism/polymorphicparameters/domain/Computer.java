@@ -9,7 +9,6 @@ public class Computer extends Product {
 
   @Override
   public double calculateTaxPercent() {
-    System.out.println("Calculando importo do computador!");
     return this.value * TAX_PERCENT;
   }
 }

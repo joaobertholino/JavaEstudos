@@ -1,9 +1,9 @@
-package objectorientation.polymorphism.polymorphicparameters.domain;
+package objectorientation.polymorphism.castandinstanceof.domain;
 
-public class Television extends Product{
+public class Computer extends Product {
   public static final double TAX_PERCENT = 0.21;
 
-  public Television(String name, double value) {
+  public Computer(String name, double value) {
     super(name, value);
   }
 

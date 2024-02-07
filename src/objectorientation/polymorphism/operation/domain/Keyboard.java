@@ -2,7 +2,11 @@ package objectorientation.polymorphism.operation.domain;
 
 public class Keyboard extends Product {
   public static final double TAX_PERCENT = 0.06;
-  public final boolean isKeysLighting = true;
+
+  /**
+   * Declarando método que pertence somente a sub classe {@code Keyboard}, não podendo ser acessado pela super classe.
+   */
+  public final boolean KEYS_LIGHTNING = true;
 
   public Keyboard(String name, double value) {
     super(name, value);
@@ -14,7 +18,7 @@ public class Keyboard extends Product {
     return this.value * TAX_PERCENT;
   }
 
-  public boolean getIsKeysLighting() {
-    return isKeysLighting;
+  public boolean isKEYS_LIGHTNING() {
+    return KEYS_LIGHTNING;
   }
 }
