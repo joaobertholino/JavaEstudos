@@ -27,7 +27,7 @@ public class App {
   }
 
   private static void newArchive() {
-    File myFile = new File("src/exceptionsanderrors/runtimeandexceptionerror/exceptions\\exceptions.txt");
+    File myFile = new File("src/exceptionsanderrors/runtimeandexceptionerror/exceptions\\exceptionFile.txt");
 
     try{
       boolean isNewFileCreated = myFile.createNewFile();
