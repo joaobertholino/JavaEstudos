@@ -1,6 +1,6 @@
 package exceptionsanderrors.introduction;
 
-// TODO: Revisar exceptions e errors
+// TODO: Revisar exceptionsFolderExemple e errors
 
 /**
  * As exceções e erros em Java representam situações anormais que ocorrem durante a execução de um programa.
@@ -32,6 +32,10 @@ package exceptionsanderrors.introduction;
  * capacidade disponível da pilha de execução.
  */
 public class App {
+
+  /**
+   * Exemplo de {@code StackOverflowError} utilizando recursividade
+   */
   public static void main(String[] args) {
     recursion();
   }

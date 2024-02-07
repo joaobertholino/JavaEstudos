@@ -1,6 +1,5 @@
 package poo.polymorphism.introduction;
 
-// TODO: Revisar polimorfismo: https://www.youtube.com/watch?v=UmReA29kOVw&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=91&pp=iAQB
 import poo.polymorphism.introduction.domain.Computer;
 import poo.polymorphism.introduction.domain.Keyboard;
 import poo.polymorphism.introduction.services.CalculateTax;

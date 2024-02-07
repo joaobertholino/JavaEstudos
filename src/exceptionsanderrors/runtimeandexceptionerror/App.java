@@ -26,8 +26,15 @@ public class App {
     newArchive();
   }
 
+  /**
+   * Declarando método que cria novo arquivo em um diretorio especifico e lança um {@code IOException} utilizado
+   * {@code tryCatch}.
+   * <p>
+   * No bloco {@code try} será executado um codigo com possibilidade de lançar erros, caso seja lançado, executara o bloco
+   * {@code catch}, cujo o qual, irá imprimir os logs de erro referente ao que foi lançado.
+   */
   private static void newArchive() {
-    File myFile = new File("src/exceptionsanderrors/runtimeandexceptionerror/exceptions\\exceptionFile.txt");
+    File myFile = new File("src/exceptionsanderrors/runtimeandexceptionerror/exceptionsFolderExemple\\exceptionFile.txt");
 
     try{
       boolean isNewFileCreated = myFile.createNewFile();
