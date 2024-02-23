@@ -36,10 +36,10 @@ public class App {
   private static void newArchive() {
     File myFile = new File("src/exceptionsanderrors/runtimeandexceptionerror/exceptionsFolderExemple\\exceptionFile.txt");
 
-    try{
+    try {
       boolean isNewFileCreated = myFile.createNewFile();
       System.out.println(STR."Arquivo criado: \{isNewFileCreated}");
-    } catch (IOException e){
+    } catch (IOException e) {
       e.printStackTrace();
     }
   }

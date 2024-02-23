@@ -9,31 +9,39 @@ public class App {
     arrayPartThree();
     arrayPartFour();
   }
-    /*
-    Valores padrôes ao se declarar arrays:
-    byte, short, int, long, float, double => 0
-    char => ' '
-    boolean => false
-    String => null
-     */
 
+  /**
+   * Valores padrôes ao se declarar arrays:
+   * <p>
+   * byte, short, int, long, float, double = 0
+   * <p>
+   * char = ' '
+   * <p>
+   * boolean = false
+   * <p>
+   * String = null
+   **/
   public static void arrayPartOne() {
-//        Declarando um array de inteiros de tamanho fixo
+//    Declarando um array de inteiros de tamanho fixo
     int[] age = new int[3];
     System.out.println(Arrays.toString(age));
 
-//        Atribuindo valores ao array por meio do index
+//    Atribuindo valores ao array por meio do index
     age[0] = 21;
     System.out.println(age[0]);
 
+//    Fazendo o casting do tipo float para inteiro
     age[1] = (int) 19f;
     System.out.println(age[1]);
 
+//    Fazendo o casting do tipo large para inteiro
     age[2] = (int) 17L;
     System.out.println(age[2]);
   }
 
-  //    Imprimindo os valores padrões de cada tipo
+  /**
+   * Imprimindo os valores padrões de cada tipo
+   */
   public static void arrayPartTwo() {
     int[] intArray = new int[3];
     System.out.println(Arrays.toString(intArray));
@@ -60,15 +68,15 @@ public class App {
   }
 
   public static void arrayPartFour() {
-//        Declarando um array com valores padrões de tamanho fixa
+//    Declarando um array com valores padrões de tamanho fixo
     int[] arrayMethodOne = new int[3];
     System.out.println(Arrays.toString(arrayMethodOne));
 
-//        Declarando um array passando seus valores
+//    Declarando um array passando seus valores
     int[] arrayMethodTwo = {1, 2, 3};
     System.out.println(Arrays.toString(arrayMethodTwo));
 
-//        Declarando um array da mesma forma que a anterior porem com uma sintaxe diferente
+//    Declarando um array da mesma forma que a anterior porem com uma sintaxe diferente
     int[] arrayMethodThree = new int[]{1, 2, 3};
     System.out.println(Arrays.toString(arrayMethodThree));
 

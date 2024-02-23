@@ -24,18 +24,18 @@ public interface DataLoader {
   int MAX_DATA_SIZE = 10;
 
   /**
-   * Declarando método {@code load} a ser implementado na classe {@code DataBaseLoader}.
-   * <p>
-   * Por padrão, todos os métodos de uma interface são publicos ({@code public}) e abstratos ({@code abstract}).
-   */
-  String load();
-
-  /**
    * Declarando método estatico {@code retrieveMaxDataSize} na interface {@code DataLoader}.
    */
   static String retrieveMaxDataSize() {
     return "Declaração do método estatico retrieveMaxDataSize da interface DataLoader.";
   }
+
+  /**
+   * Declarando método {@code load} a ser implementado na classe {@code DataBaseLoader}.
+   * <p>
+   * Por padrão, todos os métodos de uma interface são publicos ({@code public}) e abstratos ({@code abstract}).
+   */
+  String load();
 
   /**
    * Declarando métodos default {@code checkPermission} e {@code validation} na interface {@code DataLoader}.

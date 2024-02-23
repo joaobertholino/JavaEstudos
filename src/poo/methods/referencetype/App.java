@@ -14,7 +14,7 @@ public class App {
 
     PrintStudent printStudent = new PrintStudent();
 
-//        Ao passar objetos como argumento, esta sendo passado a referência desse objeto
+//    Ao passar objetos como argumento, esta sendo passado a referência desse objeto
     printStudent.print(myStudentOne);
     printStudent.print(myStudentTwo);
 

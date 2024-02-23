@@ -1,6 +1,10 @@
 package poo.heritage.init;
 
 public class Person {
+  static {
+    System.out.println("Dentro do bloco de inicialização estatico de Person!");
+  }
+
   /**
    * protected => Ao definir um membro como protected, todos as subclasses e classes do mesmo pacote, teram acesso a esse
    * membro como se pertencessem a eles proprios.
@@ -8,12 +12,11 @@ public class Person {
   protected String name;
   protected String cpf;
   protected Address address;
-  static {
-    System.out.println("Dentro do bloco de inicialização estatico de Person!");
-  }
+
   {
     System.out.println("Dentro do bloco de inicialização não estatico 1 de Person!");
   }
+
   {
     System.out.println("Dentro do bloco de inicialização não estatico 2 de Person!");
   }

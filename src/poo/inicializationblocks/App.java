@@ -6,6 +6,5 @@ public class App {
     for (int episode : myAnime.getEpisodes()) {
       System.out.println(STR."Episodio numero: \{episode}");
     }
-
   }
 }

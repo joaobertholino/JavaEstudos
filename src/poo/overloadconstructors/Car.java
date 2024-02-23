@@ -7,9 +7,9 @@ public class Car {
   private int year;
   private boolean isReserved;
 
-  //    Construtores nunca possui um retorno, incluindo void
+//  Construtores nunca possui um retorno, nem mesmo retorno void
   public Car(String brand, String model, String color, int year) {
-//      this(); => Chamando outro construtor, sendo obrigatorio a chamada na primeira linha do bloco de um construtor
+//    this(); => Chama outro construtor, sendo obrigatorio a chamada na primeira linha do bloco de um construtor
     this();
     this.brand = brand;
     this.model = model;
@@ -18,7 +18,7 @@ public class Car {
   }
 
   public Car(String brand, String model, String color, int year, boolean isReserved) {
-//        this(brand, model, color, year); => Chamando um construtor especifico com base nos parametros passados
+//    this(brand, model, color, year); => Chamando um construtor especifico com base nos parametros passados
     this(brand, model, color, year);
     this.isReserved = isReserved;
   }

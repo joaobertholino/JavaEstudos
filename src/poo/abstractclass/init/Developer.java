@@ -1,6 +1,6 @@
 package poo.abstractclass.init;
 
-public class Developer extends Employee{
+public class Developer extends Employee {
   public Developer(String name, double wage) {
     super(name, wage);
   }

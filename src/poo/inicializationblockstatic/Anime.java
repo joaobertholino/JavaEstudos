@@ -16,7 +16,7 @@ public class Anime {
     }
   }
 
-  //  Um segundo bloco de inicialização sera executa na após o seu anterior e assim por diante
+  //  Um segundo bloco de inicialização sera executado após o seu anterior e assim por diante
   static {
     System.out.println("Dentro do segundo bloco estatico de inicialização!");
 

@@ -16,9 +16,9 @@ package poo.interfaces.init;
 public interface DataLoader {
   String VARIABLE_INTERFACE = "Constante declarada em uma interface DataBaseLoader.";
 
-  String loadOne();
-
   static String loadTwo() {
     return "Método estatico declarado na interface DataBaseLoader.";
   }
+
+  String loadOne();
 }

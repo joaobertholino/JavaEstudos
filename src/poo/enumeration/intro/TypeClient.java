@@ -5,5 +5,5 @@ package poo.enumeration.intro;
  */
 public enum TypeClient {
   PESSOA_FISICA,
-  PESSOA_JURIDICA;
+  PESSOA_JURIDICA
 }

@@ -4,11 +4,11 @@ public class App {
   public static void main(String[] args) {
     Calculator calc = new Calculator();
 
-//        Executando métodos da classe por meio do objeto instanciado
+//    Executando métodos da classe por meio do objeto instanciado
     calc.sum(10, 10);
     calc.subtration(10, 2);
 
-//        Atribuindo a uma variavel o retorno do método divide
+//    Atribuindo a uma variavel o retorno do método divide
     double resultDivide = calc.divide(10.6, 0);
     System.out.println(resultDivide);
 
@@ -17,7 +17,7 @@ public class App {
     final int x = 9;
     final int y = 3;
 
-//        Ao passar como argumento valores diferentes do padrão declarado no método, esse valor será reatribuido pelo padrão
+//    Ao passar como argumento valores diferentes do padrão declarado no método, esse valor será reatribuido pelo padrão
     calc.changeNumber(x, y);
     System.out.println("Fora do changeNumber!");
     System.out.println(STR."x: \{x}");
@@ -26,7 +26,8 @@ public class App {
     int[] numbers = {1, 2, 3, 4, 5};
     calc.sumArray(numbers);
 
-//        Caso seja passado outro parametro além do varargs, o primeiro valor do varargs sera atribuido a esse parametro
-    calc.sumVarArgs(1, 2, 3, 4, 5);
+//    Caso seja passado outro parametro além do varargs, o primeiro argumento do varargs sera atribuido a esse parametro
+    int sumVarArgs = calc.sumVarArgs(1, 2, 3, 4, 5);
+    System.out.println(STR."Resultado de sumVarArgs => \{sumVarArgs}");
   }
 }

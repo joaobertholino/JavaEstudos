@@ -7,7 +7,7 @@ public class App {
   public static void main(String[] args) {
     try {
       divide(10, 0);
-    }catch (RuntimeException e){
+    } catch (RuntimeException e) {
       e.printStackTrace();
     }
     System.out.println("Codigo finalizado!");
@@ -20,7 +20,7 @@ public class App {
    * Caso não seja feita o tratamento com {@code try-catch}, a execução no codigo será interrompida.
    */
   private static int divide(int x, int y) {
-    if(y == 0) throw new IllegalArgumentException("Argumento ilegal!");
+    if (y == 0) throw new IllegalArgumentException("Argumento ilegal!");
     return x / y;
   }
 }

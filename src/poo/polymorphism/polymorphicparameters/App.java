@@ -1,6 +1,9 @@
 package poo.polymorphism.polymorphicparameters;
 
-import poo.polymorphism.polymorphicparameters.domain.*;
+import poo.polymorphism.polymorphicparameters.domain.Computer;
+import poo.polymorphism.polymorphicparameters.domain.Keyboard;
+import poo.polymorphism.polymorphicparameters.domain.Product;
+import poo.polymorphism.polymorphicparameters.domain.Television;
 import poo.polymorphism.polymorphicparameters.services.CalculateTax;
 
 public class App {

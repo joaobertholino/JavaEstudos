@@ -7,9 +7,9 @@ public enum TypePayment {
       return value * 0.1;
     }
   },
-  CREDIT("Método Credito"){
+  CREDIT("Método Credito") {
     @Override
-    public double calculateDiscount(double value){
+    public double calculateDiscount(double value) {
       return value * 0.05;
     }
   };

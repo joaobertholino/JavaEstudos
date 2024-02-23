@@ -4,7 +4,7 @@ package poo.enumeration.overwritemethods;
 public enum TypePayment {
   /**
    * Declarando um método para um valor de enumeração, do qual, sobreescreve um método declarado fora do escopo.
-    */
+   */
   DEBIT {
     @Override
     public double calculateDiscount(double value) {
@@ -21,6 +21,6 @@ public enum TypePayment {
   /**
    * Depois de declarar métodos para todos os valores de enumeração, o método declarado fora de escopo passa a não ser
    * mais utilizado, sendo necessario a declaração dele como um método abstrato (sem corpo).
-    */
+   */
   public abstract double calculateDiscount(double value);
 }

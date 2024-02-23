@@ -2,7 +2,7 @@ package poo.association.bidirectional;
 
 public class Team {
   private String name;
-//  Declarando uma associação da classe Team a um array da classe Player
+  //  Declarando uma associação da classe Team a um array da classe Player
   private Player[] players;
 
   public Team(String name) {

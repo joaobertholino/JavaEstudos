@@ -13,7 +13,7 @@ public class CalculateTax {
     System.out.println(STR."Valor do produto: \{product.getValue()}");
     System.out.println(STR."Imposto do produto: \{product.calculateTaxPercent()}");
 
-    if (product instanceof Keyboard myKeyboard){
+    if (product instanceof Keyboard myKeyboard) {
       System.out.println(STR."Qnt. de teclas do teclado: \{myKeyboard.getKeysQuantity()}");
     }
   }

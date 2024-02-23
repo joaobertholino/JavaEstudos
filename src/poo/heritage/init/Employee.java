@@ -7,18 +7,21 @@ package poo.heritage.init;
  * @implNote Não é possivel efetuar uma herança multipla, pois todas as classes extendem a classe Object do Java.
  */
 public class Employee extends Person {
-  private int wage;
   static {
     System.out.println("Dentro do bloco de inicialização estatico de Employee!");
   }
+
+  private int wage;
+
   {
     System.out.println("Dentro do bloco de inicialização não estatico 1 de Employee!");
   }
+
   {
     System.out.println("Dentro do bloco de inicialização não estatico 2 de Employee!");
   }
 
-//  Chamando um construtor especifico(com base nos parametros passados) da classe pai utilizando super e adicionando
+  //  Chamando um construtor especifico(com base nos parametros passados) da classe pai utilizando super e adicionando
 //  mais codigo ao construtor da classe filho
   public Employee(String name, String cpf, Address address, int wage) {
     super(name, cpf, address);

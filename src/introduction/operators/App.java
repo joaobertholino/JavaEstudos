@@ -15,72 +15,78 @@ public class App {
     operatorAssignmentAndModule();
   }
 
-  //    Operadores aritmeticos => Efetuam operações aritmeticas simples
+  /**
+   * Operadores aritmeticos => Efetuam operações aritmeticas simples
+   */
   public static void arithmeticOperators() {
     int numberOne = 10;
     int numberTwo = 20;
 
-//        Adição
+//    Adição
     int sum = numberOne + numberTwo;
     System.out.println(sum);
 
-//        Subtração
+//    Subtração
     int subtraction = numberOne - numberTwo;
     System.out.println(subtraction);
 
-//        Multiplicação
+//    Multiplicação
     int multiplication = numberOne * numberTwo;
     System.out.println(multiplication);
 
-//        Divisão
+//    Divisão
     int divide = numberTwo / numberOne;
     System.out.println(divide);
 
-//        Incremento
+//    Incremento
     numberOne++;
     int increment = numberOne;
     System.out.println(increment);
 
-//        Decremento
+//    Decremento
     numberTwo--;
     int decrement = numberTwo;
     System.out.println(decrement);
   }
 
-  //    Operadores relacionais => Efetuam verificação relacionais entre valores
+  /**
+   * Operadores relacionais => Efetuam verificação relacionais entre valores
+   */
   public static void operatorsRelationships() {
-//        Resto de divisão
+//    Resto de divisão
     int module = 20 % 2;
     System.out.println(module);
 
-//        Maior
+//    Maior
     boolean biggerThen = 20 > 10;
     System.out.println(biggerThen);
 
-//        Menor
+//    Menor
     boolean lessThan = 20 < 10;
     System.out.println(lessThan);
 
-//        Maior ou igual
+//    Maior ou igual
     boolean biggerEqual = 20 >= 10;
     System.out.println(biggerEqual);
 
-//        Menor igual
+//    Menor igual
     boolean smallerEqual = 20 <= 10;
     System.out.println(smallerEqual);
 
-//        Igualdade
+//    Igualdade
     boolean equality = 20 == 10;
     System.out.println(equality);
 
-//        Diferente
+//    Diferente
     boolean different = 20 != 10;
     System.out.println(different);
   }
 
-  //    Operadores logicos => Efetuam verificações condicionais entre valores
+  /**
+   * Operadores logicos => Efetuam verificações condicionais entre valores
+   */
   public static void operatorAND() {
-//        AND => &&
+//    AND => &&
     int age = 21;
     float sale = 3500f;
 
@@ -89,7 +95,7 @@ public class App {
   }
 
   public static void operatorOR() {
-//        OR => ||
+//    OR => ||
     int age = 21;
     float sale = 3500f;
 
@@ -98,7 +104,7 @@ public class App {
   }
 
   public static void operatorNOT() {
-//        NOT => !
+//    NOT => !
     int age = 21;
     float sale = 3500f;
 
@@ -109,7 +115,10 @@ public class App {
     System.out.println(inverted);
   }
 
-  //    Operadores de atribuição => Efetuam uma operação entre os valores da esquerda e da direita, atribuindo o resultado ao valor da esquerda
+  /**
+   * Operadores de atribuição => Efetuam uma operação entre os valores da esquerda e da direita, atribuindo o resultado
+   * ao valor da esquerda
+   */
   public static void operatorAssignment() {
     String assignmentOperator = "Operador de atrbuição simples!";
     System.out.println(assignmentOperator);
@@ -138,7 +147,7 @@ public class App {
 
   public static void operatorAssignmentAndDivide() {
     int numberOne = 10;
-    numberOne *= 3;
+    numberOne /= 3;
 
     System.out.println(numberOne);
   }
