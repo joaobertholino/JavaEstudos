@@ -1,8 +1,8 @@
 package poo.heritage.init;
 
 /**
- * Ao extender uma classe de outra, todos os membros da classe pai são herdados para a classe filho,
- * resultando em um forte acoplamento do codigo.
+ * Ao extender uma classe de outra, todos os membros da classe pai são herdados para a classe filho, resultando em um
+ * forte acoplamento do codigo.
  *
  * @implNote Não é possivel efetuar uma herança multipla, pois todas as classes extendem a classe Object do Java.
  */

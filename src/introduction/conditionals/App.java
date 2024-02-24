@@ -50,8 +50,8 @@ public class App {
   }
 
   /**
-   * Switch => Executa um bloco de codigo de acordo com o caso passado, se não tiver correspondencia, executa o
-   * bloco default
+   * Switch => Executa um bloco de codigo de acordo com o caso passado, se não tiver correspondencia, executa o bloco
+   * default
    */
   public static void switchCase() {
     byte day = 5;

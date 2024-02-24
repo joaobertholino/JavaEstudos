@@ -14,8 +14,9 @@ public enum TypeClient {
   /**
    * Declarando um método chamado {@code searchForNameReport} passando como parametro uma {@code String nameReport},
    * dentro do método é declarado um forEach que ira iterar sobre cada elemento do array retornado por {@code values()},
-   * por fim, utilizando um {@code if}, será verificado se o {@code values.getNameReport()} corresponde ao {@code nameReport}
-   * passado como argumento para o método, se sim, retorna {@code value}, se não, retorna {@code null}.
+   * por fim, utilizando um {@code if}, será verificado se o {@code values.getNameReport()} corresponde ao
+   * {@code nameReport} passado como argumento para o método, se sim, retorna {@code value}, se não, retorna
+   * {@code null}.
    * <p>
    * {@code values()} => Retorna um array com todos os elementos de um enum na ordem que são declarados.
    */

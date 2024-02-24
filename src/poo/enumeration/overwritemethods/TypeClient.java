@@ -23,10 +23,10 @@ public enum TypeClient {
   }
 
   /**
-   * Em Java, um método abstrato em uma classe abstrata não pode ser declarado como estático.
-   * Isso ocorre porque métodos abstratos são implementados pelas classes filhas e não são herdados como métodos estáticos.
-   * Métodos estáticos pertencem à classe em si e não podem ser sobrescritos por subclasses.
-   * Portanto, a combinação de métodos abstratos e métodos estáticos não é permitida no Java.
+   * Em Java, um método abstrato em uma classe abstrata não pode ser declarado como estático. Isso ocorre porque métodos
+   * abstratos são implementados pelas classes filhas e não são herdados como métodos estáticos. Métodos estáticos
+   * pertencem à classe em si e não podem ser sobrescritos por subclasses. Portanto, a combinação de métodos abstratos e
+   * métodos estáticos não é permitida no Java.
    */
   public abstract double calculateDiscount(double value);
 }

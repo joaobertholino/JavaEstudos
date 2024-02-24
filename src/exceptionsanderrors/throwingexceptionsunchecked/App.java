@@ -14,8 +14,8 @@ public class App {
   }
 
   /**
-   * Declarando um método que efetua uma divisão, caso seja uma divisão por 0(zero), será lançado
-   * um erro {@code IllegalArgumentException}, sem o uso de {@code try-catch}.
+   * Declarando um método que efetua uma divisão, caso seja uma divisão por 0(zero), será lançado um erro
+   * {@code IllegalArgumentException}, sem o uso de {@code try-catch}.
    * <p>
    * Caso não seja feita o tratamento com {@code try-catch}, a execução no codigo será interrompida.
    */

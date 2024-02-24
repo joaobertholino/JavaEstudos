@@ -1,7 +1,7 @@
 package poo.staticmodified;
 
 public class Car {
-  //    Ao definir uma propriedade como static, ela passa a ser pertencer a sua classe e não mais ao objeto instanciado
+  //  Ao definir uma propriedade como static, ela passa a ser pertencer a sua classe e não mais ao objeto instanciado
   public static double speedlimit = 250;
   private String brand;
   private double maximumSpeed;

@@ -8,7 +8,7 @@ public class Car {
   }
 
   public final double SPEED_MAX;
-  //  Declarando uma contante que faz referencia, da qual nunca vai poder ser alterada, a um novo objeto
+  //  Declarando uma constante que faz referencia a um objeto
   public final Buyer BUYER = new Buyer();
 
   {

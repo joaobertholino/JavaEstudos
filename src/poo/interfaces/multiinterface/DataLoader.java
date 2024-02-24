@@ -1,8 +1,8 @@
 package poo.interfaces.multiinterface;
 
 /**
- * Ordem dos modificares de acesso do mais retristivo ao mais liberal:
- * Não é permitido a declaração de um modificador mais retristivo que o padrão(public).
+ * Ordem dos modificares de acesso do mais retristivo ao mais liberal: Não é permitido a declaração de um modificador
+ * mais retristivo que o padrão(public).
  * <p>
  * {@code private} => O acesso é permitido apenas dentro da própria classe.
  * <p>
@@ -15,7 +15,8 @@ package poo.interfaces.multiinterface;
 public interface DataLoader {
 
   /**
-   * Declarando método {@code load} na interface {@code DataLoader} que será implementando na classe {@code DataBaseLoader}.
+   * Declarando método {@code load} na interface {@code DataLoader} que será implementando na classe
+   * {@code DataBaseLoader}.
    */
   String load();
 

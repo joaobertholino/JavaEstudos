@@ -2,7 +2,7 @@ package poo.reference;
 
 public class App {
   public static void main(String[] args) {
-//        Inatnciando primeiro objeto
+//    Instanciando primeiro objeto
     Car ferrari = new Car();
     ferrari.brand = "Ferrari";
     System.out.println(ferrari.brand);
@@ -16,7 +16,7 @@ public class App {
     ferrari.year = 2024;
     System.out.println(ferrari.year);
 
-//        Instanciando segundo objeto
+//    Instanciando segundo objeto
     Car mercedes = new Car();
     mercedes.brand = "Mercedes";
     System.out.println(mercedes.brand);
@@ -30,7 +30,7 @@ public class App {
     mercedes.year = 2022;
     System.out.println(mercedes.year);
 
-//        Declarando que o objeto ferrari faz referencia para o objeto mercedes
+//    Declarando que o objeto ferrari faz referencia para o objeto mercedes
     ferrari = mercedes;
     System.out.println(STR."Ferrari: \{ferrari.brand}");
     System.out.println(STR."Ferrari: \{ferrari.color}");

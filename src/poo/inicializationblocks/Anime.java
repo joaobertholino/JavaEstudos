@@ -1,8 +1,8 @@
 package poo.inicializationblocks;
 
 /**
- * Um bloco de inicialização é um bloco de codigo que sera executado a cada instancia da classe
- * e antes da execução dos contrutores
+ * Um bloco de inicialização é um bloco de codigo que sera executado a cada instancia da classe e antes da execução dos
+ * contrutores
  */
 public class Anime {
   private final int[] episodes;

@@ -6,8 +6,8 @@ public class Person {
   }
 
   /**
-   * protected => Ao definir um membro como protected, todos as subclasses e classes do mesmo pacote, teram acesso a esse
-   * membro como se pertencessem a eles proprios.
+   * protected => Ao definir um membro como protected, todos as subclasses e classes do mesmo pacote, teram acesso a
+   * esse membro como se pertencessem a eles proprios.
    */
   protected String name;
   protected String cpf;

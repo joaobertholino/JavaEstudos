@@ -9,8 +9,8 @@ public class Car {
    */
   public static final double SPEED_LIMIT;
 
-  //    É possivel inicializar uma constante por meio de um bloco de inicialização estatico pelo fato do bloco de inicialização
-//    sempre ser executado, mesmo quando declarado apos a declaração da constante.
+  //  É possivel inicializar uma constante por meio de um bloco de inicialização estatico pelo fato do bloco de
+//  inicialização sempre ser executado, mesmo quando declarado apos a declaração da constante.
   static {
 //    Para inicializar uma contante estatica em um bloco de inicialização, é preciso que o bloco tambem seja estatico
     SPEED_LIMIT = 250;

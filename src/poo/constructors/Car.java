@@ -6,7 +6,7 @@ public class Car {
   private String color;
   private int year;
 
-//  Declarando um construtor com parametros
+  //  Declarando um construtor com parametros
   public Car(String brand, String model, String color, int year) {
     this.brand = brand;
     this.model = model;
@@ -14,7 +14,7 @@ public class Car {
     this.year = year;
   }
 
-//  Declarando um segundo construtor do qual se diferencia do primeiro pelo numero de parametros
+  //  Declarando um segundo construtor do qual se diferencia do primeiro pelo numero de parametros
   public Car() {
   }
 

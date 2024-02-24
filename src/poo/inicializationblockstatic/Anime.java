@@ -7,7 +7,7 @@ public class Anime {
   private static final int[] episodes;
 
   static {
-    System.out.println("Dentro do primeiro bloco estatico de inicialização!");
+    System.out.println("Dentro do PRIMEIRO bloco ESTATICO de inicialização!");
     episodes = new int[3];
 
     for (int i = 0; i < episodes.length; i++) {
@@ -18,7 +18,7 @@ public class Anime {
 
   //  Um segundo bloco de inicialização sera executado após o seu anterior e assim por diante
   static {
-    System.out.println("Dentro do segundo bloco estatico de inicialização!");
+    System.out.println("Dentro do SEGUNDO bloco ESTATICO de inicialização!");
 
     for (int i = 0; i < episodes.length; i++) {
       episodes[i] = i + 1;
@@ -30,7 +30,7 @@ public class Anime {
 
   //  Junto aos blocos estaticos, podem existir blocos não estaticos que seram executados após os blocos estaticos
   {
-    System.out.println("Dentro do terceiro bloco não estatico de inicialização!");
+    System.out.println("Dentro do TERCEIRO bloco NAO ESTATICO de inicialização!");
 
     for (int i = 0; i < episodes.length; i++) {
       episodes[i] = i + 1;

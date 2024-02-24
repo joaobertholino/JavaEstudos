@@ -1,8 +1,8 @@
 package poo.overloadmethods;
 
 /**
- * Sobrecarga de método significa a existencia de métodos com o mesmo nome, porem, com quantidade
- * de parametros diferentes.
+ * Sobrecarga de método significa a existencia de métodos com o mesmo nome, porem, com quantidade de parametros
+ * diferentes.
  */
 public class Car {
   private String brand;
@@ -22,8 +22,8 @@ public class Car {
   }
 
   /**
-   * Ao ter que adicionar uma nova propriedade na classe, recomenda-se usar getters e setters e
-   * não o método init, assim evitando o surgimentos de erros no codigo.
+   * Ao ter que adicionar uma nova propriedade na classe, recomenda-se usar getters e setters e não o método init, assim
+   * evitando o surgimentos de erros no codigo.
    */
   public boolean getReserved() {
     return isReserved;

@@ -5,7 +5,7 @@ public class Student {
   public int age;
   public char sex;
 
-//  O this refere-se ao objeto a qual está declarado
+  //  O this refere-se ao objeto a qual está declarado
   public void print() {
     System.out.println(this.name);
     System.out.println(this.age);

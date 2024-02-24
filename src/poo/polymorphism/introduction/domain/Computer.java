@@ -11,7 +11,8 @@ public class Computer extends Product {
   }
 
   /**
-   * Implementando a sobreescrita do método {@code calculateTax} da interface {@code Taxable} na classe {@code Computer}.
+   * Implementando a sobreescrita do método {@code calculateTax} da interface {@code Taxable} na classe
+   * {@code Computer}.
    */
   @Override
   public double calculateTaxPercent() {

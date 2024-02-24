@@ -2,8 +2,8 @@ package poo.enumeration.searchatribute;
 
 public class App {
   /**
-   * {@code valueOf} => Método estatico que retorna o valor de enumeração com base no argumento passado, sendo esse argumento uma correspondencia
-   * exata ao valor de enumeração.
+   * {@code valueOf} => Método estatico que retorna o valor de enumeração com base no argumento passado, sendo esse
+   * argumento uma correspondencia exata ao valor de enumeração.
    */
   public static void main(String[] args) {
     TypeClient typeClientOne = TypeClient.valueOf("PESSOA_FISICA");

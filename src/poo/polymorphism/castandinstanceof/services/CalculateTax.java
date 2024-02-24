@@ -4,7 +4,8 @@ import poo.polymorphism.castandinstanceof.domain.Keyboard;
 import poo.polymorphism.castandinstanceof.domain.Product;
 
 /**
- * Verificando se o objeto mais generico passado como argumento é uma instancia de (instanceOf) uma classe mais espessifica.
+ * Verificando se o objeto mais generico passado como argumento é uma instancia de (instanceOf) uma classe mais
+ * espessifica.
  */
 public class CalculateTax {
   public static void calculateTax(Product product) {

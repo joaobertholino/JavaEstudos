@@ -11,7 +11,8 @@ public class Developer extends Employee {
   }
 
   /**
-   * Implementando a sobreescrita do método abstrato da classe abstrata {@code Employee} na classe concreta {@code Developer}.
+   * Implementando a sobreescrita do método abstrato da classe abstrata {@code Employee} na classe concreta
+   * {@code Developer}.
    */
   @Override
   public String calculateBonus() {
@@ -20,8 +21,8 @@ public class Developer extends Employee {
   }
 
   /**
-   * Implementando a sobreescrita do método abstrato da classe abstrata
-   * {@code Person} na classe concreta {@code Developer}.
+   * Implementando a sobreescrita do método abstrato da classe abstrata {@code Person} na classe concreta
+   * {@code Developer}.
    */
   @Override
   public void print() {

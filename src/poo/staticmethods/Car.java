@@ -17,7 +17,7 @@ public class Car {
   /**
    * Ao inves de utilizar {@code this} para manipular uma propriedade estatica, usa-se o nome da classe.
    * <p>
-   * O this se refere ao objeto e metodos e props estaticas se referen a classe.
+   * O this se refere ao objeto, e metodos e props estaticas se referen a classe.
    * <p>
    * Métodos estaticos não tem acesso a propriedades que não sejam estaticas.
    */
@@ -26,7 +26,7 @@ public class Car {
   }
 
   public String getBrand() {
-    return brand;
+    return this.brand;
   }
 
   public void setBrand(String brand) {
@@ -34,7 +34,7 @@ public class Car {
   }
 
   public double getMaximumSpeed() {
-    return maximumSpeed;
+    return this.maximumSpeed;
   }
 
   public void setMaximumSpeed(double maximumSpeed) {
@@ -42,7 +42,10 @@ public class Car {
   }
 
   /**
-   * Métodos não estaticos podem acessar propriedades estaticas
+   * Os métodos não estáticos em Java podem acessar propriedades estáticas da classe diretamente. No entanto, é
+   * importante entender que as propriedades estáticas pertencem à classe em si, não a uma instância específica da
+   * classe. Portanto, elas podem ser acessadas de qualquer lugar dentro da classe, independentemente do método ser
+   * estático ou não.
    */
   public void print() {
     System.out.println("-------------------------------------");

@@ -12,8 +12,8 @@ public abstract class Employee {
   /**
    * Declarando um método abstrato que será obrigatoriamente implementado em todas as subClasses que o extenden.
    * <p>
-   * Uma classe concreta não pode ter métodos abstratos, porem, uma classe abstrata pode ter metodos concretos
-   * e abstratos juntos.
+   * Uma classe concreta não pode ter métodos abstratos, porem, uma classe abstrata pode ter metodos concretos e
+   * abstratos juntos.
    */
   public abstract String calculateBonus();
 }

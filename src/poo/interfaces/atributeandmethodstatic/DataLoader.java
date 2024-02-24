@@ -16,10 +16,11 @@ package poo.interfaces.atributeandmethodstatic;
 public interface DataLoader {
 
   /**
-   * Declarando uma constante do tipo inteiro {@code MAX_DATA_SIZE}, sendo inicializada com o valor de {@value MAX_DATA_SIZE},
-   * na interface {@code DataLoader}.
+   * Declarando uma constante do tipo inteiro {@code MAX_DATA_SIZE}, sendo inicializada com o valor de
+   * {@value MAX_DATA_SIZE}, na interface {@code DataLoader}.
    * <p>
-   * Por padrão, todos os atributos de uma interface são publicos ({@code public}), estaticos ({@code static}) e constantes ({@code final}).
+   * Por padrão, todos os atributos de uma interface são publicos ({@code public}), estaticos ({@code static}) e
+   * constantes ({@code final}).
    */
   int MAX_DATA_SIZE = 10;
 

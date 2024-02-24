@@ -1,4 +1,4 @@
-package poo.superscripttostring;
+package poo.overwrittentostring;
 
 public class Anime {
   private String name;
@@ -18,7 +18,8 @@ public class Anime {
   /**
    * Sempre ao chamar uma variavel de referencia, o método {@code toString} é executado, por padrão.
    * <p>
-   * Ao sobreescrever um método, nunca se deve alterar o modificador de acesso para um que seja mais restrito que o original.
+   * Ao sobreescrever um método, nunca se deve alterar o modificador de acesso para um que seja mais restrito que o
+   * original.
    * <p>
    * A notação {@code @Overrride} garante que o método esta sendo sobreescrito.
    */

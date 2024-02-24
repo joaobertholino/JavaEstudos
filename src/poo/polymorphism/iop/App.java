@@ -6,8 +6,8 @@ import poo.polymorphism.iop.services.RepositoryDataBase;
 import poo.polymorphism.iop.services.RepositoryMemory;
 
 /**
- * Declarando uam variavel de referencia do tipo da interface a qual referencia uma classe que implementa essa
- * mesma interface, assim podendo chamar uma implementação especifica do método da interface de cada classe.
+ * Declarando uam variavel de referencia do tipo da interface a qual referencia uma classe que implementa essa mesma
+ * interface, assim podendo chamar uma implementação especifica do método da interface de cada classe.
  */
 public class App {
   public static void main(String[] args) {

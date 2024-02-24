@@ -2,7 +2,8 @@ package poo.interfaces.atributeandmethodstatic;
 
 public class DataBaseLoader implements DataLoader, DataRemover {
   /**
-   * Implementando o método estatico {@code retrieveMaxDataSize} da interface {@code DataLoader} na classe {@code DataBaseLoader}.
+   * Implementando o método estatico {@code retrieveMaxDataSize} da interface {@code DataLoader} na classe
+   * {@code DataBaseLoader}.
    * <p>
    * Ao implementar um método estatico de uma interface em uma classe, ele não sera sobreescrito, podendo, com o mesmo
    * nome, ser acessado tanto pela implementação da classe quanto pela implementação da interface.
@@ -12,7 +13,8 @@ public class DataBaseLoader implements DataLoader, DataRemover {
   }
 
   /**
-   * Implementando a sobrescrita do método {@code load} da interface {@code DataLoader} na classe {@code DataBaseLoader}.
+   * Implementando a sobrescrita do método {@code load} da interface {@code DataLoader} na classe
+   * {@code DataBaseLoader}.
    */
   @Override
   public String load() {
@@ -20,7 +22,8 @@ public class DataBaseLoader implements DataLoader, DataRemover {
   }
 
   /**
-   * Implementando a sobreescrita do método {@code remove} da interface {@code DataRemover} na classe {@code DataBaseLoader}.
+   * Implementando a sobreescrita do método {@code remove} da interface {@code DataRemover} na classe
+   * {@code DataBaseLoader}.
    */
   @Override
   public String remove() {
@@ -28,7 +31,8 @@ public class DataBaseLoader implements DataLoader, DataRemover {
   }
 
   /**
-   * Implementando a sobreescrita do método default {@code checkPermission} da interface {@code DataLoader} na classe {@code DataBaseLoader}.
+   * Implementando a sobreescrita do método default {@code checkPermission} da interface {@code DataLoader} na classe
+   * {@code DataBaseLoader}.
    */
   @Override
   public String checkPermission() {

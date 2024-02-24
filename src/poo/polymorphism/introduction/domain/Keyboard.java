@@ -11,7 +11,8 @@ public class Keyboard extends Product {
   }
 
   /**
-   * Implementando a sobreescrita do método {@code calculateTax} da interface {@code Taxable} na classe {@code Keyboard}.
+   * Implementando a sobreescrita do método {@code calculateTax} da interface {@code Taxable} na classe
+   * {@code Keyboard}.
    */
   @Override
   public double calculateTaxPercent() {

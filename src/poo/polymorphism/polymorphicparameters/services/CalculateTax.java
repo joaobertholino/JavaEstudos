@@ -3,8 +3,8 @@ package poo.polymorphism.polymorphicparameters.services;
 import poo.polymorphism.polymorphicparameters.domain.Product;
 
 /**
- * Declarando um método que recebe um parametro do tipo {@code Product} e retorna no console os métodos do objeto passado
- * como argumento.
+ * Declarando um método que recebe um parametro do tipo {@code Product} e retorna no console os métodos do objeto
+ * passado como argumento.
  */
 public class CalculateTax {
   public static void calculateTaxProduct(Product product) {

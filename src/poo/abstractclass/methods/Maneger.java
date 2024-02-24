@@ -11,8 +11,8 @@ public class Maneger extends Employee {
   }
 
   /**
-   * Implementando um método abstrato da superClasse, utilizando a notação {@code @Override} para
-   * garantir a sobreescrita do método.
+   * Implementando um método abstrato da superClasse, utilizando a notação {@code @Override} para garantir a
+   * sobreescrita do método.
    */
   @Override
   public String calculateBonus() {

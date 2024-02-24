@@ -1,11 +1,11 @@
 package poo.association.unidirectionalonetomany;
 
 /**
- * Na associação unidirecional de um para muitos, apenas a classe A tem relação com a classe B, porem a classe B não
- * tem relação com a classe A.
+ * Na associação unidirecional de um para muitos, apenas a classe A tem relação com a classe B, porem a classe B não tem
+ * relação com a classe A.
  *
- * @implNote A classe Team pode ter varios Players, não tendo relação com cada um individualmente, porem, a classe Players
- * pode ter apenas um Team, sendo assim, a classe Players tem relação com a classe Team.
+ * @implNote A classe Team pode ter varios Players, não tendo relação com cada um individualmente, porem, a classe
+ * Players pode ter apenas um Team, sendo assim, a classe Players tem relação com a classe Team.
  */
 public class Player {
   private String name;
