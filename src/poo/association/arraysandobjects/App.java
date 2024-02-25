@@ -9,7 +9,7 @@ public class App {
 
 //    Armazenando os tres objetos em um array, nesse momento, os objetos passam a ter duas formas de ser acessados:
 //    Acesso direto sem passar pelo array
-//    Acesso pelo seu indice correspondente no array
+//    Acesso pelo seu índice correspondente no array
     Player[] players = new Player[]{playerOne, playerTwo, playerThree};
 
 //    Iterando pelos indices do array

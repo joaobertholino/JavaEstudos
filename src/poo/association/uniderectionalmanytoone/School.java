@@ -1,5 +1,8 @@
 package poo.association.uniderectionalmanytoone;
 
+/**
+ * Na associação {@code muitos-para-um} a declaração da referencia é feita na classe que representa o {@code "um"}.
+ */
 public class School {
   private String name;
   private Teacher[] teachers;
