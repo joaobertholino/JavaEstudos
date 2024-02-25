@@ -11,7 +11,6 @@ package poo.association.unidirectionalonetomany;
  */
 public class Player {
   private String name;
-
   //  Referenciando a classe Team a classe Player
   private Team team;
 
@@ -31,15 +30,14 @@ public class Player {
     return team;
   }
 
-  //  Declarando um setter para a classe Team na classe Player
   public void setTeam(Team team) {
     this.team = team;
   }
 
+  //  Declarando um setter para a classe Team na classe Player
   public void print() {
     System.out.println(this.name);
-
-//    Verificando de existe um objeto Team em memória visando evitar NullPointer
+    //    Verificando de existe um objeto Team em memória visando evitar NullPointer
     if (team != null) {
       System.out.println(team.getName());
     }

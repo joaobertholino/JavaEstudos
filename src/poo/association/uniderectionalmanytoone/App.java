@@ -1,8 +1,12 @@
 package poo.association.uniderectionalmanytoone;
 
+/**
+ * Ao instanciar objetos, é preferível instanciar os objetos que não possuem referencias primeiro aos que possuem, assim
+ * melhorando a legibilidade e o entendimento do código, evitando erros como {@code NullPointerException} que acontece
+ * ao instanciar um objeto que faz referencia a outro objeto que ainda não foi instanciado.
+ */
 public class App {
   public static void main(String[] args) {
-//    Sempre preferivel ao instanciar objetos, iniciar pelos objetos que não possuem referencias
     Teacher teacherOne = new Teacher("Adriano Malagoli");
     Teacher teacherTwo = new Teacher("Lucas Portal");
 

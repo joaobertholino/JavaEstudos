@@ -16,16 +16,6 @@ public class School {
     this.teachers = teachers;
   }
 
-  public void print() {
-    System.out.println(STR."Nome da Escola: \{this.name}");
-//    Verificando se existem teachers disponiveis na memória, utilizando um if para retornar interrompendo
-//    a execução do bloco, evitando NullPointer.
-    if (teachers == null) return;
-    for (Teacher teacher : teachers) {
-      System.out.println(STR."Nome do professor: \{teacher.getName()}");
-    }
-  }
-
   public String getName() {
     return name;
   }
@@ -40,5 +30,17 @@ public class School {
 
   public void setTeachers(Teacher[] teachers) {
     this.teachers = teachers;
+  }
+
+  /**
+   * Verificando se existem teachers disponíveis na memória, utilizando um if para retornar interrompendo
+   * a execução do bloco, evitando NullPointer.
+   */
+  public void print() {
+    System.out.println(STR."Nome da Escola: \{this.name}");
+    if (teachers == null) return;
+    for (Teacher teacher : teachers) {
+      System.out.println(STR."Nome do professor: \{teacher.getName()}");
+    }
   }
 }
