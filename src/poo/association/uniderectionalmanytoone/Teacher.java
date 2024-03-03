@@ -1,17 +1,17 @@
 package poo.association.uniderectionalmanytoone;
 
 public class Teacher {
-  private String name;
+	private String name;
 
-  public Teacher(String name) {
-    this.name = name;
-  }
+	public Teacher(String name) {
+		this.name = name;
+	}
 
-  public String getName() {
-    return name;
-  }
+	public String getName() {
+		return name;
+	}
 
-  public void setName(String name) {
-    this.name = name;
-  }
+	public void setName(String name) {
+		this.name = name;
+	}
 }

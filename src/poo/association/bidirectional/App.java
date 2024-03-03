@@ -6,18 +6,18 @@ package poo.association.bidirectional;
  * A.
  */
 public class App {
-  public static void main(String[] args) {
-    Player playerOne = new Player("Cafu");
-    Player playerTwo = new Player("Romario");
+	public static void main(String[] args) {
+		Player playerOne = new Player("Cafu");
+		Player playerTwo = new Player("Romario");
 
-    Team teamOne = new Team("Brasil");
-    Player[] players = {playerOne, playerTwo};
+		Team teamOne = new Team("Brasil");
+		Player[] players = {playerOne, playerTwo};
 
-    playerOne.setTeam(teamOne);
-    playerTwo.setTeam(teamOne);
-    teamOne.setPlayers(players);
+		playerOne.setTeam(teamOne);
+		playerTwo.setTeam(teamOne);
+		teamOne.setPlayers(players);
 
-    playerOne.print();
-    playerTwo.print();
-  }
+		playerOne.print();
+		playerTwo.print();
+	}
 }

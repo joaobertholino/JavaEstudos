@@ -1,24 +1,31 @@
 package poo.enumeration.searchatribute;
 
 public enum TypePayment {
-  DEBIT("Método Debito") {
-    @Override
-    public double calculateDiscount(double value) {
-      return value * 0.1;
-    }
-  },
-  CREDIT("Método Credito") {
-    @Override
-    public double calculateDiscount(double value) {
-      return value * 0.05;
-    }
-  };
+	/**
+	 * Implementando métodos que carregam logicas especificas para cada valor de enumeração.
+	 */
+	DEBIT("Debito") {
+		@Override
+		public double calculateDiscount(double value) {
+			return value * 0.1;
+		}
+	},
+	CREDIT("Crédito") {
+		@Override
+		public double calculateDiscount(double value) {
+			return value * 0.05;
+		}
+	};
 
-  public final String PAYMENT_METHOD;
+	public final String paymentType;
 
-  TypePayment(String typePayment) {
-    this.PAYMENT_METHOD = typePayment;
-  }
+	TypePayment(String type) {
+		this.paymentType = type;
+	}
 
-  public abstract double calculateDiscount(double value);
+	public String getPaymentType() {
+		return paymentType;
+	}
+
+	public abstract double calculateDiscount(double value);
 }

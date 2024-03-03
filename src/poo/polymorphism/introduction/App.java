@@ -1,5 +1,7 @@
 package poo.polymorphism.introduction;
 
+// TODO: Estudar polimorfismo
+
 import poo.polymorphism.introduction.domain.Computer;
 import poo.polymorphism.introduction.domain.Keyboard;
 import poo.polymorphism.introduction.services.CalculateTax;
@@ -11,11 +13,11 @@ import poo.polymorphism.introduction.services.CalculateTax;
  * referencia as instancias das classes {@code Computer} e {@code Keyboard}.
  */
 public class App {
-  public static void main(String[] args) {
-    Computer myComputer = new Computer("NUC10i7", 10000);
-    Keyboard myKeyboard = new Keyboard("Razer Chroma", 1200);
-    CalculateTax.calculateTaxComputer(myComputer);
-    System.out.println("-------------------------------------");
-    CalculateTax.calculateTaxKeyboard(myKeyboard);
-  }
+	public static void main(String[] args) {
+		Computer myComputer = new Computer("NUC10i7", 10000);
+		Keyboard myKeyboard = new Keyboard("Razer Chroma", 1200);
+		CalculateTax.calculateTaxComputer(myComputer);
+		System.out.println("-------------------------------------");
+		CalculateTax.calculateTaxKeyboard(myKeyboard);
+	}
 }

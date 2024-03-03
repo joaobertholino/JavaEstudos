@@ -15,37 +15,37 @@ package poo.interfaces.atributeandmethodstatic;
  */
 public interface DataLoader {
 
-  /**
-   * Declarando uma constante do tipo inteiro {@code MAX_DATA_SIZE}, sendo inicializada com o valor de
-   * {@value MAX_DATA_SIZE}, na interface {@code DataLoader}.
-   * <p>
-   * Por padrão, todos os atributos de uma interface são publicos ({@code public}), estaticos ({@code static}) e
-   * constantes ({@code final}).
-   */
-  int MAX_DATA_SIZE = 10;
+	/**
+	 * Declarando uma constante do tipo inteiro {@code MAX_DATA_SIZE}, sendo inicializada com o valor de
+	 * {@value MAX_DATA_SIZE}, na interface {@code DataLoader}.
+	 * <p>
+	 * Por padrão, todos os atributos de uma interface são publicos ({@code public}), estaticos ({@code static}) e
+	 * constantes ({@code final}).
+	 */
+	int MAX_DATA_SIZE = 10;
 
-  /**
-   * Declarando método estatico {@code retrieveMaxDataSize} na interface {@code DataLoader}.
-   */
-  static String retrieveMaxDataSize() {
-    return "Declaração do método estatico retrieveMaxDataSize da interface DataLoader.";
-  }
+	/**
+	 * Declarando método estatico {@code retrieveMaxDataSize} na interface {@code DataLoader}.
+	 */
+	static String retrieveMaxDataSize() {
+		return "Declaração do método estático retrieveMaxDataSize da interface DataLoader.";
+	}
 
-  /**
-   * Declarando método {@code load} a ser implementado na classe {@code DataBaseLoader}.
-   * <p>
-   * Por padrão, todos os métodos de uma interface são publicos ({@code public}) e abstratos ({@code abstract}).
-   */
-  String load();
+	/**
+	 * Declarando método {@code load} a ser implementado na classe {@code DataBaseLoader}.
+	 * <p>
+	 * Por padrão, todos os métodos de uma interface são publicos ({@code public}) e abstratos ({@code abstract}).
+	 */
+	String load();
 
-  /**
-   * Declarando métodos default {@code checkPermission} e {@code validation} na interface {@code DataLoader}.
-   */
-  default String checkPermission() {
-    return "Declaranção do método default dentro da interface DataLoader que será sobreescrito na classe DataBaseLoader!";
-  }
+	/**
+	 * Declarando métodos default {@code checkPermission} e {@code validation} na interface {@code DataLoader}.
+	 */
+	default String checkPermission() {
+		return "Declaração do método default dentro da interface DataLoader que será sobreescrito na classe DataBaseLoader!";
+	}
 
-  default String validation() {
-    return "Declarando do método default dentro da interface DataLoader!";
-  }
+	default String validation() {
+		return "Declaração do método default dentro da interface DataLoader!";
+	}
 }

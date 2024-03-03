@@ -12,13 +12,24 @@ package poo.interfaces.init;
  * <p>
  * Ao implementar uma interface, uma classe se compromete a fornecer uma implementação concreta para todos os métodos
  * abstratos da interface, garantindo conformidade com o contrato estabelecido pela interface.
+ * <p>
+ * Por padrão, todos os métodos de uma interface são declarado como {@code abstract}(com exceção de métodos estáticos) e
+ * com modificador de acesso {@code public}. E as propriedades, por padrão, são declaradas como {@code final} e
+ * {@code static}.
  */
 public interface DataLoader {
-  String VARIABLE_INTERFACE = "Constante declarada em uma interface DataBaseLoader.";
+	String VARIABLE_INTERFACE = "Constante declarada em uma interface DataBaseLoader.";
 
-  static String loadTwo() {
-    return "Método estatico declarado na interface DataBaseLoader.";
-  }
+	/**
+	 * Em interfaces, métodos estáticos devem possuir corpo junto a sua declaração, assim seguindo a regra de que quando
+	 * um método é declarado como {@code static}, o mesmo pertence a interface e não a classe de implementação.
+	 */
+	static String loadTwo() {
+		return "Método estático declarado na interface DataBaseLoader.";
+	}
 
-  String loadOne();
+	/**
+	 * Declarando método a ser implementado posteriormente.
+	 */
+	String loadOne();
 }

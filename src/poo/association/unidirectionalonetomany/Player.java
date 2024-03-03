@@ -10,36 +10,36 @@ package poo.association.unidirectionalonetomany;
  * Na associação {@code um-para-muitos} a referencia é declarada na classe que representa o {@code "muitos"}.
  */
 public class Player {
-  private String name;
-  //  Referenciando a classe Team a classe Player
-  private Team team;
+	private String name;
+	//  Referenciando a classe Team a classe Player
+	private Team team;
 
-  public Player(String name) {
-    this.name = name;
-  }
+	public Player(String name) {
+		this.name = name;
+	}
 
-  public String getName() {
-    return name;
-  }
+	public String getName() {
+		return name;
+	}
 
-  public void setName(String name) {
-    this.name = name;
-  }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-  public Team getTeam() {
-    return team;
-  }
+	public Team getTeam() {
+		return team;
+	}
 
-  public void setTeam(Team team) {
-    this.team = team;
-  }
+	public void setTeam(Team team) {
+		this.team = team;
+	}
 
-  //  Declarando um setter para a classe Team na classe Player
-  public void print() {
-    System.out.println(this.name);
-    //    Verificando de existe um objeto Team em memória visando evitar NullPointer
-    if (team != null) {
-      System.out.println(team.getName());
-    }
-  }
+	//  Declarando um setter para a classe Team na classe Player
+	public void print() {
+		System.out.println(this.name);
+//    Verificando de existe um objeto Team em memória visando evitar NullPointer
+		if (team != null) {
+			System.out.println(team.getName());
+		}
+	}
 }

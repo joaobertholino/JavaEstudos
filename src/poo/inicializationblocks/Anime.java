@@ -5,34 +5,34 @@ package poo.inicializationblocks;
  * contrutores
  */
 public class Anime {
-  private final int[] episodes;
-  private String name;
+	private final int[] episodes;
+	private String name;
 
-  {
-    System.out.println("Dentro do bloco de inicialização!");
-    episodes = new int[5];
+	{
+		System.out.println("Dentro do bloco de inicialização!");
+		episodes = new int[5];
 
-    for (int i = 0; i < episodes.length; i++) {
-      episodes[i] = i + 1;
-    }
-  }
+		for (int i = 0; i < episodes.length; i++) {
+			episodes[i] = i + 1;
+		}
+	}
 
-  public Anime(String name) {
-    this.name = name;
-  }
+	public Anime(String name) {
+		this.name = name;
+	}
 
-  /**
-   * A inicialização das propriedades do objeto acontece antes da execução do construtor
-   */
-  public Anime() {
-    System.out.println("Dentro do bloco do construtor sem parametros!");
-  }
+	/**
+	 * A inicialização das propriedades do objeto acontece antes da execução do construtor
+	 */
+	public Anime() {
+		System.out.println("Dentro do bloco do construtor sem parametros!");
+	}
 
-  public String getName() {
-    return name;
-  }
+	public String getName() {
+		return name;
+	}
 
-  public int[] getEpisodes() {
-    return episodes;
-  }
+	public int[] getEpisodes() {
+		return episodes;
+	}
 }

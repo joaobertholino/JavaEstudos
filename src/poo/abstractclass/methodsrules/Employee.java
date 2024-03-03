@@ -7,13 +7,13 @@ package poo.abstractclass.methodsrules;
  * abstrata, apenas a partir da primeira classe concreta que devera implementar a sobreescrita desses métodos.
  */
 public abstract class Employee extends Person {
-  protected String name;
-  protected double wage;
+	protected String name;
+	protected double wage;
 
-  public Employee(String name, double wage) {
-    this.name = name;
-    this.wage = wage;
-  }
+	public Employee(String name, double wage) {
+		this.name = name;
+		this.wage = wage;
+	}
 
-  public abstract String calculateBonus();
+	public abstract String calculateBonus();
 }

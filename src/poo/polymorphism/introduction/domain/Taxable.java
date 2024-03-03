@@ -5,5 +5,5 @@ package poo.polymorphism.introduction.domain;
  * implementados nas classes concretas {@code Computer} e {@code Keyboard}.
  */
 public interface Taxable {
-  double calculateTaxPercent();
+	double calculateTaxPercent();
 }

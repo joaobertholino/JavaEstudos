@@ -21,25 +21,25 @@ import java.io.IOException;
  * garantir que as exceções sejam tratadas adequadamente e para evitar surpresas durante a execução do programa.
  */
 public class App {
-  public static void main(String[] args) {
-    newArchive();
-  }
+	public static void main(String[] args) {
+		newArchive();
+	}
 
-  /**
-   * Declarando método que cria novo arquivo em um diretorio especifico e lança um {@code IOException} utilizado
-   * {@code tryCatch}.
-   * <p>
-   * No bloco {@code try} será executado um codigo com possibilidade de lançar erros, caso seja lançado, executara o
-   * bloco {@code catch}, cujo o qual, irá imprimir os logs de erro referente ao que foi lançado.
-   */
-  private static void newArchive() {
-    File myFile = new File("src/exceptionsanderrors/runtimeandexceptionerror/exceptionsFolderExemple\\exceptionFile.txt");
+	/**
+	 * Declarando método que cria novo arquivo em um diretorio especifico e lança um {@code IOException} utilizado
+	 * {@code tryCatch}.
+	 * <p>
+	 * No bloco {@code try} será executado um codigo com possibilidade de lançar erros, caso seja lançado, executara o
+	 * bloco {@code catch}, cujo o qual, irá imprimir os logs de erro referente ao que foi lançado.
+	 */
+	private static void newArchive() {
+		File myFile = new File("src/exceptionsanderrors/runtimeandexceptionerror/exceptionsFolderExemple\\exceptionFile.txt");
 
-    try {
-      boolean isNewFileCreated = myFile.createNewFile();
-      System.out.println(STR."Arquivo criado: \{isNewFileCreated}");
-    } catch (IOException e) {
-      e.printStackTrace();
-    }
-  }
+		try {
+			boolean isNewFileCreated = myFile.createNewFile();
+			System.out.println(STR."Arquivo criado: \{isNewFileCreated}");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 }

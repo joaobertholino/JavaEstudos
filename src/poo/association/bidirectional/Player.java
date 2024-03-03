@@ -1,34 +1,34 @@
 package poo.association.bidirectional;
 
 public class Player {
-  private String name;
-  //  Declarando uma associação da classe Player para a classe Team
-  private Team team;
+	private String name;
+	//  Declarando uma associação da classe Player para a classe Team
+	private Team team;
 
-  public Player(String name) {
-    this.name = name;
-  }
+	public Player(String name) {
+		this.name = name;
+	}
 
-  public String getName() {
-    return name;
-  }
+	public String getName() {
+		return name;
+	}
 
-  public void setName(String name) {
-    this.name = name;
-  }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-  public Team getTeam() {
-    return team;
-  }
+	public Team getTeam() {
+		return team;
+	}
 
-  public void setTeam(Team team) {
-    this.team = team;
-  }
+	public void setTeam(Team team) {
+		this.team = team;
+	}
 
-  public void print() {
-    System.out.println(STR."Nome do jogador: \{this.name}");
-    if (team != null) {
-      System.out.println(STR."Nome do time: \{team.getName()}");
-    }
-  }
+	public void print() {
+		System.out.println(STR."Nome do jogador: \{this.name}");
+		if (team != null) {
+			System.out.println(STR."Nome do time: \{team.getName()}");
+		}
+	}
 }

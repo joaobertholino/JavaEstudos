@@ -7,40 +7,40 @@ package poo.heritage.init;
  * Não é possivel efetuar uma herança multipla, pois todas as classes extendem a classe Object do Java.
  */
 public class Employee extends Person {
-  static {
-    System.out.println("Dentro do bloco de inicialização estatico de Employee!");
-  }
+	static {
+		System.out.println("Dentro do bloco de inicialização estatico de Employee!");
+	}
 
-  private int wage;
+	private int wage;
 
-  {
-    System.out.println("Dentro do bloco de inicialização não estatico 1 de Employee!");
-  }
+	{
+		System.out.println("Dentro do bloco de inicialização não estatico 1 de Employee!");
+	}
 
-  {
-    System.out.println("Dentro do bloco de inicialização não estatico 2 de Employee!");
-  }
+	{
+		System.out.println("Dentro do bloco de inicialização não estatico 2 de Employee!");
+	}
 
-  /**
-   * Chamando um construtor especifico(com base nos parametros passados) da classe pai utilizando super junto ao codigo
-   * pertencente ao construtor da classe filho.
-   */
-  public Employee(String name, String cpf, Address address, int wage) {
-    super(name, cpf, address);
-    this.wage = wage;
-  }
+	/**
+	 * Chamando um construtor especifico(com base nos parametros passados) da classe pai utilizando super junto ao codigo
+	 * pertencente ao construtor da classe filho.
+	 */
+	public Employee(String name, String cpf, Address address, int wage) {
+		super(name, cpf, address);
+		this.wage = wage;
+	}
 
-  public int getWage() {
-    return wage;
-  }
+	public int getWage() {
+		return wage;
+	}
 
-  public void setWage(int wage) {
-    this.wage = wage;
-  }
+	public void setWage(int wage) {
+		this.wage = wage;
+	}
 
-  public void print() {
+	public void print() {
 //    super => Chamando o método da classe pai e apos ser executado, passara a executar o codigo da classe filho
-    super.print();
-    System.out.println(STR."Salario do funcionario: \{this.wage}");
-  }
+		super.print();
+		System.out.println(STR."Salario do funcionario: \{this.wage}");
+	}
 }

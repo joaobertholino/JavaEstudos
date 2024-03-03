@@ -9,13 +9,13 @@ package poo.abstractclass.init;
  * personalização através de subclasses.
  */
 public abstract class Employee {
-  protected String name;
-  protected double wage;
+	protected String name;
+	protected double wage;
 
-  public Employee(String name, double wage) {
-    this.name = name;
-    this.wage = wage;
-  }
+	public Employee(String name, double wage) {
+		this.name = name;
+		this.wage = wage;
+	}
 
-  public abstract String abstractExemple();
+	public abstract String abstractExemple();
 }

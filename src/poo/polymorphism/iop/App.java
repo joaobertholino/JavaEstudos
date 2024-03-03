@@ -10,14 +10,14 @@ import poo.polymorphism.iop.services.RepositoryMemory;
  * interface, assim podendo chamar uma implementação especifica do método da interface de cada classe.
  */
 public class App {
-  public static void main(String[] args) {
-    Repository repositoryOne = new RepositoryDataBase();
-    repositoryOne.save();
+	public static void main(String[] args) {
+		Repository repositoryOne = new RepositoryDataBase();
+		repositoryOne.save();
 
-    Repository repositoryTwo = new ReposirotyArchive();
-    repositoryTwo.save();
+		Repository repositoryTwo = new ReposirotyArchive();
+		repositoryTwo.save();
 
-    Repository repositoryThree = new RepositoryMemory();
-    repositoryThree.save();
-  }
+		Repository repositoryThree = new RepositoryMemory();
+		repositoryThree.save();
+	}
 }
